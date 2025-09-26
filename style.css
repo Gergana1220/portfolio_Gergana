@@ -1,6 +1,28 @@
-h1
-{
+html, body{
+padding: 0%;
+margin: 0%;
+height: 100%;
+}
+body{
+    display: block;
+    min-height: 100%;
+    align-content: center;
+
+}  
+.asdf {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color:blueviolet;
+}
+#main-content{
+    height: 40%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    vertical-align: middle;
     text-align: center;
-    justify-content: center;
-    color: rgb(13, 198, 139);
 }
