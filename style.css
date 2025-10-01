@@ -1,28 +1,16 @@
 html, body{
-padding: 0%;
-margin: 0%;
-height: 100%;
-}
-body{
-    display: block;
-    min-height: 100%;
-    align-content: center;
-
-}  
-.asdf {
-    width: 100%;
+    padding: 0%;
+    margin: 0%;
     height: 100%;
 }
-h1{
-    color:blueviolet;
-}
+
 #main-content{
     height: 40%;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-}
-td{
-    vertical-align: middle;
-    text-align: center;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr); 2fr;
+    grid-template-rows: repaet()
 }
