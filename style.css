@@ -1,16 +1,52 @@
-html, body{
-    padding: 0%;
-    margin: 0%;
+html, body {
+    padding: 0;
+    margin: 0;
     height: 100%;
 }
 
-#main-content{
+body {
+    background-color: #171717;
+}
+
+#main-content {
+    color: white;
     height: 40%;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr); 2fr;
-    grid-template-rows: repaet()
+    grid-template-columns: repeat(4, 1fr) 2fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#profile-img {
+    grid-column: span 4;
+    grid-row: span 5;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#navigation {
+    grid-column: span 1;
+    grid-row: span 6;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-media {
+    align-items: center;
+    display: flex;
+    grid-column: span 4;
+    grid-row: span 1;
+    justify-content: space-evenly;
 }
